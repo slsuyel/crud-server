@@ -66,8 +66,6 @@ app.put("/users/:id",async (req, res) => {
     
     })
 
-
-
     app.delete("/users/:id",async (req, res) => {
       const id = req.params.id;
       console.log('Please delete',id);
